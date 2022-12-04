@@ -1,29 +1,146 @@
+
+.App_Home {
+  /* text-align: center; */
+  background: 
+  url(
+"./img/home_background.png") ;
+  background-size: "cover";
+  /* overflow: visible !important; */
+  -webkit-font-smoothing: antialiased;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+}
+
+/* .pool-last{
+  background: 
+  url(
+"./img/last.png") ;
+  background-size: "cover";
+  overflow: visible !important;
+  display: flex;
+} */
+.pool-last{
+  overflow-y: hidden;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* overflow: visible !important; */
+  -webkit-font-smoothing: antialiased;
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+}
+.start-heading{
+  font: 400 14px/16px "Roboto", "Arial", sans-serif;
+  /* margin-bottom: 10%; */
+  font-size: 80px;
+  /* position:relative; */
+  text-align: left;
+  font-family: Chakra Petch;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.start-heading-wallet{
+  /* font: 400 14pxx  /16px "Roboto", "Arial", sans-serif; */
+  /* margin-bottom: 10%; */
+  font-size: 40px;
+  /* position:relative; */
+  text-align: left;
+  font-family: Chakra Petch;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.start-intro{
+  font-size: 30px;
+  /* position: absolute; */
+  box-shadow: none;
+  margin-bottom: 10%;
+  text-align: left;
+  font-family:Chakra Petch;
+  color: #cfd0d0;
+  font-weight: 300;
+  /* line-height: 30px; */
+  text-shadow: none;
+  letter-spacing: 0.01em;
+  text-transform: normal;
+  justify-content: center;
+  text-decoration: none;
+}
+.button-home{
+  background-color: #282c34;
+  border: #282c34;
+  opacity: 100%;
+  position: relative;
+}
+.button-home-2:hover{
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1);
+  opacity: 70%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
+  margin: 3%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family:Chakra Petch;
+  /* align-items: center; */
+  /* font-size: calc(10px + 2vmin); */
   color: white;
+  justify-content: center;
 }
 
+.wallet-header {
+  min-height: 100vh;
+  display: flex;
+  margin: 3%;
+  flex-direction: column;
+  font-family:Chakra Petch;
+  /* align-items: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  /* justify-content: center; */
+}
+.start-next{
+  font-size: 24px;
+  /* position: absolute; */
+  box-shadow: none;
+  margin-bottom: 10%;
+  text-align: left;
+  font-family:Chakra Petch;
+  color: #CFD0D0;
+  font-weight: 200;
+  /* line-height: 30px; */
+  text-shadow: none;
+  letter-spacing: 0.01em;
+  text-transform: normal;
+  justify-content: center;
+  text-decoration: none;
+}
+.start-data{
+  font-size: 20px;
+  /* position: absolute; */
+  box-shadow: none;
+  margin-bottom: 10%;
+  text-align: left;
+  font-family:Chakra Petch;
+  color: #CFD0D0;
+  font-weight: 500;
+  /* line-height: 30px; */
+  text-shadow: none;
+  letter-spacing: 0.01em;
+  text-transform: normal;
+  justify-content: center;
+  text-decoration: none;
+}
 .App-link {
   color: #61dafb;
 }
